@@ -12,7 +12,7 @@ class FirstViewController: UITableViewController {
     var cursos: [String] = []
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.tableView.contentInset = UIEdgeInsetsMake(0, -10, 0, 0);
+        //self.tableView.contentInset = UIEdgeInsetsMake(0, -10, 0, 0);
         self.cursos.append("Enxaqueca 1")
         self.cursos.append("Enxaqueca 2")
         self.cursos.append("Enxaqueca 3")
@@ -34,8 +34,6 @@ class FirstViewController: UITableViewController {
         let cel = tableView.dequeueReusableCell(withIdentifier: rowUse, for: indexPath) as! CursoCell
         let t = self.cursos[indexPath.row]
         cel.cursoTitulo.text = t
-        //cel.textLabel?.text = filme.getTitle()
-        //cel.imageView?.image = filme.getImage()
         return cel
     }
     
