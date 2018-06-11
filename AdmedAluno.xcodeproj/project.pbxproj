@@ -13,6 +13,7 @@
 		592D8B5620CB4600006B51B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 592D8B5420CB4600006B51B5 /* Main.storyboard */; };
 		592D8B5820CB4602006B51B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 592D8B5720CB4602006B51B5 /* Assets.xcassets */; };
 		592D8B5B20CB4602006B51B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 592D8B5920CB4602006B51B5 /* LaunchScreen.storyboard */; };
+		59CF57E520CDF1AA00B5403C /* CursoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59CF57E420CDF1AA00B5403C /* CursoCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		592D8B5720CB4602006B51B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		592D8B5A20CB4602006B51B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		592D8B5C20CB4602006B51B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59CF57E420CDF1AA00B5403C /* CursoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CursoCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				592D8B4E20CB45FF006B51B5 /* AppDelegate.swift */,
 				592D8B5020CB4600006B51B5 /* FirstViewController.swift */,
+				59CF57E420CDF1AA00B5403C /* CursoCell.swift */,
 				592D8B5220CB4600006B51B5 /* SecondViewController.swift */,
 				592D8B5420CB4600006B51B5 /* Main.storyboard */,
 				592D8B5720CB4602006B51B5 /* Assets.xcassets */,
@@ -140,6 +143,7 @@
 			files = (
 				592D8B5320CB4600006B51B5 /* SecondViewController.swift in Sources */,
 				592D8B4F20CB45FF006B51B5 /* AppDelegate.swift in Sources */,
+				59CF57E520CDF1AA00B5403C /* CursoCell.swift in Sources */,
 				592D8B5120CB4600006B51B5 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
